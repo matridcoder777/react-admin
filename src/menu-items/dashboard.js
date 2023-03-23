@@ -10,7 +10,6 @@ const icons = {
 
 const dashboard = {
     id: 'group-dashboard',
-    title: 'Navigation',
     type: 'group',
     children: [
         {
@@ -18,6 +17,22 @@ const dashboard = {
             title: 'Dashboard',
             type: 'item',
             url: '/dashboard/default',
+            icon: icons.DashboardOutlined,
+            breadcrumbs: false
+        },
+        {
+            id: 'users',
+            title: 'Users',
+            type: 'item',
+            url: '#',
+            icon: icons.DashboardOutlined,
+            breadcrumbs: false
+        },
+        {
+            id: 'pages',
+            title: 'Pages',
+            type: 'item',
+            url: '#',
             icon: icons.DashboardOutlined,
             breadcrumbs: false
         }
